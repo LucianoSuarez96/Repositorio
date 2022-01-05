@@ -1,0 +1,312 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+:root {
+    --colorprincipal: rgb(167, 167, 167);
+    --naranja: #fb6210;
+    --naranja2: #d4530e;
+    --fuente1: 'Bebas Neue', cursive;
+}
+
+/**Generales**/
+.titulo1,h2,h4{
+ text-align: center;
+ font-family: 'Bebas Neue', cursive;
+}
+
+
+
+.hero {
+    min-height: 100vh;
+    position: relative;
+}
+
+.titulo1 {
+    color: var(--colorprincipal);
+    font-size: 3rem;
+    font-family: var(--fuente1) ;
+}
+
+@media (min-width: 600px) {
+    .titulo1 {
+        margin: 0 0 1rem 0;
+        font-size: 6rem;
+    
+    }
+     
+}
+
+
+
+.lili {
+    color: var(--naranja);
+    font-size: .8rem;
+   
+}
+
+
+@media (min-width: 600px) {
+     .lili {
+         font-size: 1rem;
+         margin: 1rem;
+     }
+}
+
+
+
+.hola2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    z-index: 2;
+    position: relative;
+}
+
+.lili:hover {
+    color: var(--naranja2);
+    text-decoration: none;
+}
+
+.aa {
+    font-size: 40px;
+    font-family: var(--fuente1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+
+/** texto achicado responsive **/
+@media (min-width: 600px) {
+     .aa {
+        margin: 0 0 2rem 0;
+     }
+}
+.promo {
+  position: relative;
+  z-index: 2;
+  
+}
+
+/**imagendegoku**/
+
+.gohan {
+    max-height: 45px;
+   
+}
+
+/** Imagen en tamaño de 600px **/
+
+@media (min-width: 600px) {
+    .gohan {
+    max-height: 60px;
+    }  
+}
+
+.gohan1 {
+ max-height: 45px;
+
+}
+
+/** Imagen de tamaño de 600px **/
+
+@media (min-width: 600px) {
+
+    .gohan1 {
+        max-height: 80px;
+  }  
+}
+
+/**Enlaces**/
+.a {
+    text-decoration: none;
+    appearance: none;
+    color: #0873d8;
+}
+
+.a:hover {
+    color: #2b8fec;
+    text-decoration: none;
+}
+
+.ola {
+ position: absolute;
+ top: 0;
+ left:0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+/**capa oscura**/
+.capa {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.9;
+    mix-blend-mode: overlay;
+}
+
+/**Parrafoconboton**/
+.parrafosiniciales {
+    color: var(--colorprincipal);
+    position: relative;
+    z-index: 2;
+    margin: 1.5rem 0  0  1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+     .parrafosiniciales {
+         margin: 2rem 0 0  0;
+
+         }
+     }
+
+/** boton **/
+
+
+/**SeccionVegeta**/
+
+.hero1 {
+    position: relative;
+    min-height: 100vh;
+}
+
+.promo1 {
+
+}
+
+.ola1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/**capa2**/
+
+.capa1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #1c1c1d;
+    mix-blend-mode: overlay;
+}
+
+.card {
+    position: relative;
+    z-index: 2;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #8bb9ff, #759cda);
+    box-shadow:  20px 20px 60px #6f93ce,
+                 -20px -20px 60px #96c7ff;
+}
+
+
+
+.backgroundnuevo {
+    background-color: red;
+    display: flex;
+    width: 100%;
+}
+.card-text {
+
+}
+
+.gridletras {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap: 1rem;
+}
+
+/** Trunks **/
+.card1  {
+
+    border-radius: 50px;
+    background: linear-gradient(145deg, #b76fc5, #d984ea);
+    box-shadow:  20px 20px 60px #ad69ba,
+             -20px -20px 60px #e98dfc;
+}
+
+/**Gohan**/
+
+.card2 {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #85129c, #9e15b9);
+    box-shadow:  20px 20px 60px #7e1193,
+             -20px -20px 60px #aa17c7;
+}
+
+/**Goku**/
+
+.card3 {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #d66e18, #ff831d);
+    box-shadow:  20px 20px 60px #ca6817,
+             -20px -20px 60px #ff8c1f;
+}
+
+/**Cell**/
+
+.card4 {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #0edc12, #11ff15);
+    box-shadow:  20px 20px 60px #0ecf11,
+             -20px -20px 60px #12ff17;  
+}
+
+.card5 {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #940edc, #af11ff);
+    box-shadow:  20px 20px 60px #8b0ecf,
+             -20px -20px 60px #bd12ff;
+}
+
+/**Footer**/
+
+
+
+.ultimaparte{
+    padding: 6rem 6rem 6rem 6rem;
+    background: linear-gradient(145deg, #d4530e, #fb6210); 
+}
+
+
+.iconos-rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.esferafooter {
+    max-width: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 600px) {
+     .esferafooter {
+         max-width: 90%;
+     }
+}
